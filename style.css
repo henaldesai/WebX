@@ -1,1 +1,18 @@
+h1, h2 {
+  color: purple;
+  text-align: center;
+}
 
+.contrast {background-color: #ffff0057;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.new {background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  flex-direction: column;
+}
