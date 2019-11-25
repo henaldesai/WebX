@@ -3,11 +3,29 @@ h1, h2 {
   text-align: center;
 }
 
+body {
+   color: #404040;
+   font-family: Arial;
+   margin: 0px;
+}
+
+h1 {
+   font-size: 3.5em;
+   margin-top: 90px;
+ }
+
+ h2 {
+   margin-top: 50px;
+ }
+
 .contrast {background-color: #ffff0057;
   display: flex;
-  justify-content: center;
+  justify-content: flex;
   align-items: center;
   flex-direction: column;
+  border: 1px #404040 solid;
+  height: 100vh;
+  width: 100vw;
 }
 
 .new {background-color: pink;
@@ -15,4 +33,16 @@ h1, h2 {
   justify-content: center;
   align-items: right;
   flex-direction: column;
+  border: 1px #404040 solid;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  height: 5vw;
 }
