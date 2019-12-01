@@ -1,4 +1,4 @@
-h1, h2 {
+h1, h2, h3 {
   color: purple;
   text-align: center;
 }
@@ -15,6 +15,10 @@ h1 {
  }
 
  h2 {
+   margin-top: 50px;
+ }
+
+ h3 {
    margin-top: 50px;
  }
 
