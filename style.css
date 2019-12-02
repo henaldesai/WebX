@@ -1,10 +1,10 @@
-h1, h2, h3 {
+h1, h3 {
   color: purple;
   text-align: center;
 }
 
 body {
-   color: #404040;
+   color: pink;
    font-family: Arial;
    margin: 0px;
 }
@@ -15,20 +15,24 @@ h1 {
  }
 
  h2 {
-   margin-top: 50px;
+   margin-top: 80px;
+   margin-bottom: 80px;
+   color: purple;
+   margin-left: 50px;
+   margin-right: 50px;
+   font-family: Arial;
  }
 
  h3 {
    margin-top: 50px;
  }
 
-.contrast {background-color: #ffff0057;
+.contrast {background-color: pink;
   display: flex;
   justify-content: flex;
   align-items: center;
   flex-direction: column;
-  border: 1px #404040 solid;
-  height: 100vh;
+  height: 40vh;
   width: 100vw;
 }
 
@@ -37,9 +41,12 @@ h1 {
   justify-content: center;
   align-items: right;
   flex-direction: column;
-  border: 1px #404040 solid;
   height: 100vh;
   width: 100vw;
+  font-size: 1.5em;
+  margin-top: 90px;
+  color: #404040;
+  font-family: Arial;
 }
 
 .container {
@@ -49,4 +56,60 @@ h1 {
 
 .navbar {
   height: 5vw;
+  background-color: purple;
+}
+
+.about {
+  justify-content: center;
+  display; flex;
+  align-items: center;
+}
+
+.button_popup-modal {
+  justify-content: center;
+  border-radius: 1px #404040 solid;
+  height: 50vw;
+  width: 20vw;
+  display: flex;
+  font-family: Arial;
+}
+
+.navleft {
+  float:left; width: 50%;
+  }
+
+.navright {
+  float:center;
+  width: 50%;
+  }
+
+.navright li a {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.navcenter {
+  align-items: center;
+  background-color: pink;
+  border-left: 50px;
+  border-top: 20px;
+  border-bottom: 20px;
+}
+
+.text {
+  background-color: white;
+  align-items: center;
+  border-top: 50px;
+  border-bottom: 50px;
+}
+
+.carouselExampleIndicators {
+  align-items: center;
+  width: 100vh;
+  height: 300px;
+}
+
+.about_us {
+  align-items: center;
+  border-bottom: 100px:
 }
