@@ -1,0 +1,88 @@
+h1, h3 {
+  color: purple;
+  text-align: center;
+}
+
+body {
+   color:#3d3637;
+   font-family: Arial;
+   margin: 0px;
+   background-image: url(https://images.squarespace-cdn.com/content/v1/5cbc7ac28155123534f2e3f5/1559311629991-RL6KUJ44DXD8DK2U4E09/ke17ZwdGBToddI8pDm48kJfXdim-OvTpTPcj8I9TOfsUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcFAkYQIx4Nv1Tb9NRJtBrpJzxLto4J4f_zX7tzCZExN_H-XQ6ZP19AnksiaJ1-G70/LadyDinahs_Cat_Cafe_Basement.jpg?format=2500w);
+}
+
+h1 {
+   font-size: 3em;
+   margin-top: 90px;
+ }
+
+ h2 {
+   margin-top: 80px;
+   margin-bottom: 80px;
+   color: purple;
+   margin-left: 50px;
+   margin-right: 50px;
+   font-family: Arial;
+ }
+
+ h3 {
+   margin-top: 50px;
+ }
+
+.navbar {
+  height: 5vw;
+  background-color: purple;
+}
+
+.about {
+  justify-content: center;
+  display; flex;
+  align-items: center;
+}
+
+.navleft {
+  float:left; width: 50%;
+  }
+
+.navright {
+  float:center;
+  width: 50%;
+  }
+
+.navright li a {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.navcenter {
+  align-items: center;
+  background-color: pink;
+  border-left: 50px;
+  border-top: 20px;
+  border-bottom: 20px;
+}
+
+.text {
+  background-color: white;
+  align-items: center;
+  border-top: 50px;
+  border-bottom: 50px;
+}
+
+.about_us {
+  align-items: center;
+  border-bottom: 100px;
+  background-color: white;
+  border-radius: 50px;
+  margin-top: 100px;
+  padding: 15px;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.social {
+  border-top: 50px;
+  align-items: center;
+  border-bottom: 20p;
+}
