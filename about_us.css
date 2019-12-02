@@ -4,9 +4,10 @@ h1, h3 {
 }
 
 body {
-   color: #ff8799;
+   color:#3d3637;
    font-family: Arial;
    margin: 0px;
+   background-image: url(https://images.squarespace-cdn.com/content/v1/5cbc7ac28155123534f2e3f5/1559311629991-RL6KUJ44DXD8DK2U4E09/ke17ZwdGBToddI8pDm48kJfXdim-OvTpTPcj8I9TOfsUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcFAkYQIx4Nv1Tb9NRJtBrpJzxLto4J4f_zX7tzCZExN_H-XQ6ZP19AnksiaJ1-G70/LadyDinahs_Cat_Cafe_Basement.jpg?format=2500w);
 }
 
 h1 {
@@ -69,7 +70,11 @@ h1 {
 
 .about_us {
   align-items: center;
-  border-bottom: 100px:
+  border-bottom: 100px;
+  background-color: white;
+  border-radius: 50px;
+  margin-top: 100px;
+  padding: 15px;
 }
 
 .wrapper {
