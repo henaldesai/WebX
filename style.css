@@ -49,6 +49,11 @@ h1 {
   font-family: Arial;
 }
 
+.social {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
 .about {background-color: #ff8799;
   display: flex;
   justify-content: center;
@@ -69,6 +74,10 @@ h1 {
 .navbar {
   height: 5vw;
   background-color: purple;
+}
+
+.navbar a {
+  color: pink;
 }
 
 .about {
@@ -121,13 +130,18 @@ h1 {
     text-align: center;
 }
 
+.btn {
+  text-align: center;
+  align-items: center;
+}
 
-.modal {
-  color: purple;
+.btn-primary {
+  background-color: purple;
+  border-color: purple;
   align-items: center;
   font-size: 16px;
   padding: 14px 40px;
   border-radius: 8px;
   -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-}
+  /* transition-duration: 0.4s; */
+/* } */
