@@ -49,6 +49,18 @@ h1 {
   font-family: Arial;
 }
 
+.about {background-color: #ff8799;
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  flex-direction: column;
+  border: 1px #404040 solid;
+  height: 100vh;
+  width: 100vw;
+}
+
+
+
 .container {
   margin: 0;
   padding: 0;
