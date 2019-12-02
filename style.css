@@ -69,6 +69,7 @@ h1 {
 .navbar {
   height: 5vw;
   background-color: purple;
+  color: #ffffff !important;
 }
 
 .about {
@@ -89,6 +90,7 @@ h1 {
 .navright li a {
   padding-left: 0 !important;
   padding-right: 0 !important;
+  color: #ffffff !important;
 }
 
 .navcenter {
